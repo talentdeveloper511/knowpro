@@ -1,0 +1,1690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0403BAEE22BBDAF9003C5053 /* KPDrugTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403BAED22BBDAF9003C5053 /* KPDrugTableViewCell.swift */; };
+		0403BAF122BBDE9E003C5053 /* KPDrugsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403BAF022BBDE9E003C5053 /* KPDrugsTableViewController.swift */; };
+		0403BAF322BBFE85003C5053 /* KPDrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403BAF222BBFE85003C5053 /* KPDrugViewController.swift */; };
+		0403BAF522BC013D003C5053 /* KPNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403BAF422BC013D003C5053 /* KPNavigationController.swift */; };
+		0412192822DFA3CD005BE675 /* KPSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412192722DFA3CD005BE675 /* KPSearchTableViewController.swift */; };
+		041AFE1922D4FA6D00045272 /* KPReferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AFE1822D4FA6D00045272 /* KPReferenceViewController.swift */; };
+		041AFE1B22D4FD2C00045272 /* KPReferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AFE1A22D4FD2C00045272 /* KPReferences.swift */; };
+		0437718722A96B230017D092 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437718622A96B230017D092 /* UILabel+Extensions.swift */; };
+		04377EC322930EFF004CEBAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04377EC222930EFF004CEBAC /* AppDelegate.swift */; };
+		04377EC822930EFF004CEBAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04377EC622930EFF004CEBAC /* Main.storyboard */; };
+		04377ECA22930F00004CEBAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04377EC922930F00004CEBAC /* Assets.xcassets */; };
+		04377ECD22930F00004CEBAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04377ECB22930F00004CEBAC /* LaunchScreen.storyboard */; };
+		04377ED822930F00004CEBAC /* KnowProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04377ED722930F00004CEBAC /* KnowProTests.swift */; };
+		04377EEA229312BC004CEBAC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04377EE9229312BC004CEBAC /* Settings.bundle */; };
+		0439B86222BD6B9C008381AA /* KPGalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439B86122BD6B9C008381AA /* KPGalleryCollectionViewController.swift */; };
+		0439B86422BD6F3A008381AA /* KPDrugInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439B86322BD6F3A008381AA /* KPDrugInfoTableViewController.swift */; };
+		044D727D22DE1C590017E602 /* KPImpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D727C22DE1C590017E602 /* KPImpression.swift */; };
+		044D727F22DE1EB70017E602 /* KPImpressionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D727E22DE1EB70017E602 /* KPImpressionStore.swift */; };
+		044D728122DE658D0017E602 /* KPDrugInfoTableViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D728022DE658D0017E602 /* KPDrugInfoTableViewController+Extensions.swift */; };
+		044D728322DE67520017E602 /* KPCompanyInfoTableViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D728222DE67520017E602 /* KPCompanyInfoTableViewController+Extensions.swift */; };
+		0455F91322D3C619008FE18A /* KPHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F91222D3C619008FE18A /* KPHeaderCollectionReusableView.swift */; };
+		0455F91522D3C6D5008FE18A /* KPFooterCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F91422D3C6D5008FE18A /* KPFooterCollectionReusableView.swift */; };
+		0455F91722D3E372008FE18A /* KPFullScreenAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F91622D3E372008FE18A /* KPFullScreenAdViewController.swift */; };
+		0455F91B22D3E983008FE18A /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F91A22D3E983008FE18A /* UIApplication+Extensions.swift */; };
+		046383F322C52A360089B493 /* KPCompanyInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046383F222C52A360089B493 /* KPCompanyInfoTableViewController.swift */; };
+		046BEA1422F3A211003EAF5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 046BEA1322F3A211003EAF5E /* GoogleService-Info.plist */; };
+		046EBBCE22A8048900BB614E /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046EBBCD22A8048900BB614E /* UIColor+Extensions.swift */; };
+		04762AC422A585B600575A65 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04762AC322A585B600575A65 /* Home.storyboard */; };
+		04762AC622A585C500575A65 /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04762AC522A585C500575A65 /* Favorites.storyboard */; };
+		04762AC822A585D400575A65 /* Companies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04762AC722A585D400575A65 /* Companies.storyboard */; };
+		04762ACA22A585DF00575A65 /* Drugs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04762AC922A585DF00575A65 /* Drugs.storyboard */; };
+		04762ACC22A585E900575A65 /* Reference.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04762ACB22A585E900575A65 /* Reference.storyboard */; };
+		0477CD1122DABBD800FB654E /* User+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477CD1022DABBD800FB654E /* User+Extensions.swift */; };
+		0477CD1322DAC88900FB654E /* KPOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477CD1222DAC88900FB654E /* KPOnboardingViewController.swift */; };
+		0477CD1522DACDA100FB654E /* KPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477CD1422DACDA100FB654E /* KPTextField.swift */; };
+		0477CD1722DB7BA600FB654E /* KPValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477CD1622DB7BA600FB654E /* KPValidationError.swift */; };
+		047E9B8A22C171F1003D285B /* KPInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E9B8922C171F1003D285B /* KPInfoTableViewCell.swift */; };
+		047E9B8E22C172D4003D285B /* KPProducerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E9B8D22C172D4003D285B /* KPProducerTableViewCell.swift */; };
+		047ED58222E0E036005A604F /* KPForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047ED58122E0E036005A604F /* KPForgotPasswordViewController.swift */; };
+		04991ED922944B37002FDD5E /* KPRealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04991ED822944B37002FDD5E /* KPRealmStore.swift */; };
+		04991EDB2294856C002FDD5E /* KPContentfulStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04991EDA2294856C002FDD5E /* KPContentfulStore.swift */; };
+		04991EDD22948830002FDD5E /* KPSyncSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04991EDC22948830002FDD5E /* KPSyncSpace.swift */; };
+		04991EDF229488FE002FDD5E /* KPAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04991EDE229488FE002FDD5E /* KPAsset.swift */; };
+		04A4123D22D6391D002C2DCD /* KPContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4123C22D6391D002C2DCD /* KPContactViewController.swift */; };
+		04A4123F22D6536F002C2DCD /* StringProtocol+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4123E22D6536F002C2DCD /* StringProtocol+Extensions.swift */; };
+		04A4124122D687D6002C2DCD /* KPContactGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4124022D687D6002C2DCD /* KPContactGradientView.swift */; };
+		04A4124322D68E75002C2DCD /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4124222D68E75002C2DCD /* String+Extensions.swift */; };
+		04A4124522D79E46002C2DCD /* SignUpLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A4124422D79E46002C2DCD /* SignUpLogin.storyboard */; };
+		04A4124822D8F570002C2DCD /* KPSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4124722D8F570002C2DCD /* KPSignUpViewController.swift */; };
+		04A4124A22D8F586002C2DCD /* KPEmailPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4124922D8F586002C2DCD /* KPEmailPasswordViewController.swift */; };
+		04A4124C22D8F59B002C2DCD /* KPCreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4124B22D8F59B002C2DCD /* KPCreateProfileViewController.swift */; };
+		04A4124E22D8F5AC002C2DCD /* KPPracticeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4124D22D8F5AC002C2DCD /* KPPracticeInfoViewController.swift */; };
+		04B3A47722C1B57C00296A04 /* KPCopayCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3A47622C1B57C00296A04 /* KPCopayCardTableViewCell.swift */; };
+		04B3A47922C1B8B800296A04 /* KPPharmacyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3A47822C1B8B800296A04 /* KPPharmacyTableViewCell.swift */; };
+		04B3A47B22C1C3CD00296A04 /* KPContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3A47A22C1C3CD00296A04 /* KPContactTableViewCell.swift */; };
+		04B3A47D22C2563900296A04 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3A47C22C2563900296A04 /* UIScrollView+Extensions.swift */; };
+		04B3A48022C3DAC600296A04 /* KPCompaniesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3A47F22C3DAC600296A04 /* KPCompaniesCollectionViewController.swift */; };
+		04B3A48222C3DC4800296A04 /* KPCompanyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3A48122C3DC4800296A04 /* KPCompanyCollectionViewCell.swift */; };
+		04B3A48422C408F700296A04 /* KPCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3A48322C408F700296A04 /* KPCompanyViewController.swift */; };
+		04C573AB22C64DFE008FE98E /* KPGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C573AA22C64DFE008FE98E /* KPGradientView.swift */; };
+		04CDD17C22BC2C1900F14B74 /* KPGalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDD17B22BC2C1900F14B74 /* KPGalleryCollectionViewCell.swift */; };
+		04D2956C229C4E2D0005CBD8 /* KPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2956B229C4E2D0005CBD8 /* KPConstants.swift */; };
+		04E4B03C22A6F8DC00BE5595 /* KPBannerAdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4B03B22A6F8DC00BE5595 /* KPBannerAdTableViewCell.swift */; };
+		04E4B03E22A6FB3000BE5595 /* KPHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4B03D22A6FB3000BE5595 /* KPHomeTableViewController.swift */; };
+		04E57C9A22A6D1D200DF3D4F /* KPSearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E57C9922A6D1D200DF3D4F /* KPSearchField.swift */; };
+		04E57C9D22A6D3FA00DF3D4F /* KPSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E57C9C22A6D3FA00DF3D4F /* KPSearchViewController.swift */; };
+		04E57C9F22A6F57700DF3D4F /* KPArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E57C9E22A6F57700DF3D4F /* KPArticleTableViewCell.swift */; };
+		04E57CA122A6F81200DF3D4F /* KPPremiumArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E57CA022A6F81200DF3D4F /* KPPremiumArticleTableViewCell.swift */; };
+		04F79A3022AFE4C6007B5BD8 /* KPMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F79A2F22AFE4C6007B5BD8 /* KPMenuViewController.swift */; };
+		04FBF030229DAFB50081F078 /* KPAdvertisement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBF02F229DAFB50081F078 /* KPAdvertisement.swift */; };
+		04FBF032229DB10B0081F078 /* KPArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBF031229DB10B0081F078 /* KPArticle.swift */; };
+		04FBF034229DB3860081F078 /* KPCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBF033229DB3860081F078 /* KPCompany.swift */; };
+		04FBF036229DB4C50081F078 /* KPContraindication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBF035229DB4C50081F078 /* KPContraindication.swift */; };
+		04FBF038229DB53D0081F078 /* KPDosageInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBF037229DB53D0081F078 /* KPDosageInstruction.swift */; };
+		04FBF03A229DB58B0081F078 /* KPDrug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBF039229DB58B0081F078 /* KPDrug.swift */; };
+		04FBF03C229DB6C60081F078 /* KPGeneralInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBF03B229DB6C60081F078 /* KPGeneralInformation.swift */; };
+		04FBF03E229DB7F30081F078 /* KPIndication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBF03D229DB7F30081F078 /* KPIndication.swift */; };
+		04FBF040229DB8470081F078 /* KPPharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBF03F229DB8470081F078 /* KPPharmacy.swift */; };
+		04FBF042229DB8DC0081F078 /* KPPrecaution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBF041229DB8DC0081F078 /* KPPrecaution.swift */; };
+		04FBF044229DBA2D0081F078 /* KPPricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBF043229DBA2D0081F078 /* KPPricing.swift */; };
+		04FBF04C229DD65D0081F078 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBF04B229DD65D0081F078 /* NotificationService.swift */; };
+		04FBF050229DD65D0081F078 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 04FBF049229DD65C0081F078 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04FE5E2522A58A02003A1F83 /* KPAppearanceProxies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE5E2422A58A02003A1F83 /* KPAppearanceProxies.swift */; };
+		04FE5E2722A58ACA003A1F83 /* KPTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE5E2622A58ACA003A1F83 /* KPTabBarController.swift */; };
+		50F32BBE763EC91A15275ACF /* Pods_KnowPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D19D4ED9B4B471CEFAEAC2 /* Pods_KnowPro.framework */; };
+		7C3A096A6F55CC7AE3326DC4 /* Pods_KnowPro_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5180D3282679679A6F88DF8C /* Pods_KnowPro_OneSignalNotificationServiceExtension.framework */; };
+		BF3C601A08D1BC00A8D5DAAB /* Pods_KnowProTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9531D59FE2959BA74176A00 /* Pods_KnowProTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04377ED422930F00004CEBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04377EB722930EFE004CEBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04377EBE22930EFF004CEBAC;
+			remoteInfo = KnowPro;
+		};
+		04FBF04E229DD65D0081F078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04377EB722930EFE004CEBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FBF048229DD65C0081F078;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04FBF056229DD65D0081F078 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04FBF050229DD65D0081F078 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0403BAED22BBDAF9003C5053 /* KPDrugTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPDrugTableViewCell.swift; sourceTree = "<group>"; };
+		0403BAF022BBDE9E003C5053 /* KPDrugsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPDrugsTableViewController.swift; sourceTree = "<group>"; };
+		0403BAF222BBFE85003C5053 /* KPDrugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPDrugViewController.swift; sourceTree = "<group>"; };
+		0403BAF422BC013D003C5053 /* KPNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPNavigationController.swift; sourceTree = "<group>"; };
+		0412192722DFA3CD005BE675 /* KPSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPSearchTableViewController.swift; sourceTree = "<group>"; };
+		041AFE1822D4FA6D00045272 /* KPReferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPReferenceViewController.swift; sourceTree = "<group>"; };
+		041AFE1A22D4FD2C00045272 /* KPReferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPReferences.swift; sourceTree = "<group>"; };
+		0437718622A96B230017D092 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		04377EBF22930EFF004CEBAC /* KnowPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnowPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04377EC222930EFF004CEBAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04377EC722930EFF004CEBAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04377EC922930F00004CEBAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04377ECC22930F00004CEBAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04377ECE22930F00004CEBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04377ED322930F00004CEBAC /* KnowProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnowProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04377ED722930F00004CEBAC /* KnowProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowProTests.swift; sourceTree = "<group>"; };
+		04377ED922930F00004CEBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04377EE9229312BC004CEBAC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		04377EF4229332CB004CEBAC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0439B86122BD6B9C008381AA /* KPGalleryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPGalleryCollectionViewController.swift; sourceTree = "<group>"; };
+		0439B86322BD6F3A008381AA /* KPDrugInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPDrugInfoTableViewController.swift; sourceTree = "<group>"; };
+		044D727C22DE1C590017E602 /* KPImpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPImpression.swift; sourceTree = "<group>"; };
+		044D727E22DE1EB70017E602 /* KPImpressionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPImpressionStore.swift; sourceTree = "<group>"; };
+		044D728022DE658D0017E602 /* KPDrugInfoTableViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KPDrugInfoTableViewController+Extensions.swift"; sourceTree = "<group>"; };
+		044D728222DE67520017E602 /* KPCompanyInfoTableViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KPCompanyInfoTableViewController+Extensions.swift"; sourceTree = "<group>"; };
+		0455F91222D3C619008FE18A /* KPHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		0455F91422D3C6D5008FE18A /* KPFooterCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPFooterCollectionReusableView.swift; sourceTree = "<group>"; };
+		0455F91622D3E372008FE18A /* KPFullScreenAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPFullScreenAdViewController.swift; sourceTree = "<group>"; };
+		0455F91A22D3E983008FE18A /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		046383F222C52A360089B493 /* KPCompanyInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPCompanyInfoTableViewController.swift; sourceTree = "<group>"; };
+		046BEA1322F3A211003EAF5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		046EBBCD22A8048900BB614E /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		04762AC322A585B600575A65 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		04762AC522A585C500575A65 /* Favorites.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
+		04762AC722A585D400575A65 /* Companies.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Companies.storyboard; sourceTree = "<group>"; };
+		04762AC922A585DF00575A65 /* Drugs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Drugs.storyboard; sourceTree = "<group>"; };
+		04762ACB22A585E900575A65 /* Reference.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reference.storyboard; sourceTree = "<group>"; };
+		0477CD1022DABBD800FB654E /* User+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+Extensions.swift"; sourceTree = "<group>"; };
+		0477CD1222DAC88900FB654E /* KPOnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPOnboardingViewController.swift; sourceTree = "<group>"; };
+		0477CD1422DACDA100FB654E /* KPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPTextField.swift; sourceTree = "<group>"; };
+		0477CD1622DB7BA600FB654E /* KPValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPValidationError.swift; sourceTree = "<group>"; };
+		047E9B8922C171F1003D285B /* KPInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPInfoTableViewCell.swift; sourceTree = "<group>"; };
+		047E9B8D22C172D4003D285B /* KPProducerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPProducerTableViewCell.swift; sourceTree = "<group>"; };
+		047ED58122E0E036005A604F /* KPForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		04991ED822944B37002FDD5E /* KPRealmStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPRealmStore.swift; sourceTree = "<group>"; };
+		04991EDA2294856C002FDD5E /* KPContentfulStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPContentfulStore.swift; sourceTree = "<group>"; };
+		04991EDC22948830002FDD5E /* KPSyncSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPSyncSpace.swift; sourceTree = "<group>"; };
+		04991EDE229488FE002FDD5E /* KPAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPAsset.swift; sourceTree = "<group>"; };
+		04A4123C22D6391D002C2DCD /* KPContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPContactViewController.swift; sourceTree = "<group>"; };
+		04A4123E22D6536F002C2DCD /* StringProtocol+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Extensions.swift"; sourceTree = "<group>"; };
+		04A4124022D687D6002C2DCD /* KPContactGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPContactGradientView.swift; sourceTree = "<group>"; };
+		04A4124222D68E75002C2DCD /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		04A4124422D79E46002C2DCD /* SignUpLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpLogin.storyboard; sourceTree = "<group>"; };
+		04A4124722D8F570002C2DCD /* KPSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPSignUpViewController.swift; sourceTree = "<group>"; };
+		04A4124922D8F586002C2DCD /* KPEmailPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPEmailPasswordViewController.swift; sourceTree = "<group>"; };
+		04A4124B22D8F59B002C2DCD /* KPCreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPCreateProfileViewController.swift; sourceTree = "<group>"; };
+		04A4124D22D8F5AC002C2DCD /* KPPracticeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPPracticeInfoViewController.swift; sourceTree = "<group>"; };
+		04B3A47622C1B57C00296A04 /* KPCopayCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPCopayCardTableViewCell.swift; sourceTree = "<group>"; };
+		04B3A47822C1B8B800296A04 /* KPPharmacyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPPharmacyTableViewCell.swift; sourceTree = "<group>"; };
+		04B3A47A22C1C3CD00296A04 /* KPContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPContactTableViewCell.swift; sourceTree = "<group>"; };
+		04B3A47C22C2563900296A04 /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
+		04B3A47F22C3DAC600296A04 /* KPCompaniesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPCompaniesCollectionViewController.swift; sourceTree = "<group>"; };
+		04B3A48122C3DC4800296A04 /* KPCompanyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPCompanyCollectionViewCell.swift; sourceTree = "<group>"; };
+		04B3A48322C408F700296A04 /* KPCompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPCompanyViewController.swift; sourceTree = "<group>"; };
+		04C573AA22C64DFE008FE98E /* KPGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPGradientView.swift; sourceTree = "<group>"; };
+		04CDD17B22BC2C1900F14B74 /* KPGalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPGalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		04D2956B229C4E2D0005CBD8 /* KPConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPConstants.swift; sourceTree = "<group>"; };
+		04E4B03B22A6F8DC00BE5595 /* KPBannerAdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPBannerAdTableViewCell.swift; sourceTree = "<group>"; };
+		04E4B03D22A6FB3000BE5595 /* KPHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPHomeTableViewController.swift; sourceTree = "<group>"; };
+		04E57C9922A6D1D200DF3D4F /* KPSearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPSearchField.swift; sourceTree = "<group>"; };
+		04E57C9C22A6D3FA00DF3D4F /* KPSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPSearchViewController.swift; sourceTree = "<group>"; };
+		04E57C9E22A6F57700DF3D4F /* KPArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPArticleTableViewCell.swift; sourceTree = "<group>"; };
+		04E57CA022A6F81200DF3D4F /* KPPremiumArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPPremiumArticleTableViewCell.swift; sourceTree = "<group>"; };
+		04F79A2F22AFE4C6007B5BD8 /* KPMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPMenuViewController.swift; sourceTree = "<group>"; };
+		04FBF02F229DAFB50081F078 /* KPAdvertisement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPAdvertisement.swift; sourceTree = "<group>"; };
+		04FBF031229DB10B0081F078 /* KPArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPArticle.swift; sourceTree = "<group>"; };
+		04FBF033229DB3860081F078 /* KPCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPCompany.swift; sourceTree = "<group>"; };
+		04FBF035229DB4C50081F078 /* KPContraindication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPContraindication.swift; sourceTree = "<group>"; };
+		04FBF037229DB53D0081F078 /* KPDosageInstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPDosageInstruction.swift; sourceTree = "<group>"; };
+		04FBF039229DB58B0081F078 /* KPDrug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPDrug.swift; sourceTree = "<group>"; };
+		04FBF03B229DB6C60081F078 /* KPGeneralInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPGeneralInformation.swift; sourceTree = "<group>"; };
+		04FBF03D229DB7F30081F078 /* KPIndication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIndication.swift; sourceTree = "<group>"; };
+		04FBF03F229DB8470081F078 /* KPPharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPPharmacy.swift; sourceTree = "<group>"; };
+		04FBF041229DB8DC0081F078 /* KPPrecaution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPPrecaution.swift; sourceTree = "<group>"; };
+		04FBF043229DBA2D0081F078 /* KPPricing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPPricing.swift; sourceTree = "<group>"; };
+		04FBF049229DD65C0081F078 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FBF04B229DD65D0081F078 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		04FBF04D229DD65D0081F078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FBF057229DD7E10081F078 /* KnowPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KnowPro.entitlements; sourceTree = "<group>"; };
+		04FE5E2422A58A02003A1F83 /* KPAppearanceProxies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPAppearanceProxies.swift; sourceTree = "<group>"; };
+		04FE5E2622A58ACA003A1F83 /* KPTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPTabBarController.swift; sourceTree = "<group>"; };
+		117AD1EDCB4EBFF846B91A7D /* Pods-KnowPro-OneSignalNotificationServiceExtension.debug - production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowPro-OneSignalNotificationServiceExtension.debug - production.xcconfig"; path = "Target Support Files/Pods-KnowPro-OneSignalNotificationServiceExtension/Pods-KnowPro-OneSignalNotificationServiceExtension.debug - production.xcconfig"; sourceTree = "<group>"; };
+		16F786248DF87128C712A635 /* Pods-KnowPro.debug - development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowPro.debug - development.xcconfig"; path = "Target Support Files/Pods-KnowPro/Pods-KnowPro.debug - development.xcconfig"; sourceTree = "<group>"; };
+		2F1E0B5374B160FD63B2002D /* Pods-KnowProTests.debug - development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowProTests.debug - development.xcconfig"; path = "Target Support Files/Pods-KnowProTests/Pods-KnowProTests.debug - development.xcconfig"; sourceTree = "<group>"; };
+		37AE6D3FD326709E261EB05F /* Pods-KnowProTests.debug - production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowProTests.debug - production.xcconfig"; path = "Target Support Files/Pods-KnowProTests/Pods-KnowProTests.debug - production.xcconfig"; sourceTree = "<group>"; };
+		3B682AF5F61D8B43B0CDE9E6 /* Pods-KnowProTests.release - production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowProTests.release - production.xcconfig"; path = "Target Support Files/Pods-KnowProTests/Pods-KnowProTests.release - production.xcconfig"; sourceTree = "<group>"; };
+		4DF97D605271E41BD8422FBC /* Pods-KnowPro.release - development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowPro.release - development.xcconfig"; path = "Target Support Files/Pods-KnowPro/Pods-KnowPro.release - development.xcconfig"; sourceTree = "<group>"; };
+		5180D3282679679A6F88DF8C /* Pods_KnowPro_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnowPro_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62CD2B035C4C02A367D51518 /* Pods-KnowPro.release - production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowPro.release - production.xcconfig"; path = "Target Support Files/Pods-KnowPro/Pods-KnowPro.release - production.xcconfig"; sourceTree = "<group>"; };
+		6E8206F25BB4F140DE9F8468 /* Pods-KnowPro.debug - production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowPro.debug - production.xcconfig"; path = "Target Support Files/Pods-KnowPro/Pods-KnowPro.debug - production.xcconfig"; sourceTree = "<group>"; };
+		85A3FB3B475813F1A5467296 /* Pods-KnowProTests.release - development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowProTests.release - development.xcconfig"; path = "Target Support Files/Pods-KnowProTests/Pods-KnowProTests.release - development.xcconfig"; sourceTree = "<group>"; };
+		C1DE524C3CCB73E5DBFCB97A /* Pods-KnowPro-OneSignalNotificationServiceExtension.release - development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowPro-OneSignalNotificationServiceExtension.release - development.xcconfig"; path = "Target Support Files/Pods-KnowPro-OneSignalNotificationServiceExtension/Pods-KnowPro-OneSignalNotificationServiceExtension.release - development.xcconfig"; sourceTree = "<group>"; };
+		C1F7C4F375C5CD38970C373F /* Pods-KnowPro-OneSignalNotificationServiceExtension.release - production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowPro-OneSignalNotificationServiceExtension.release - production.xcconfig"; path = "Target Support Files/Pods-KnowPro-OneSignalNotificationServiceExtension/Pods-KnowPro-OneSignalNotificationServiceExtension.release - production.xcconfig"; sourceTree = "<group>"; };
+		D9531D59FE2959BA74176A00 /* Pods_KnowProTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnowProTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D19D4ED9B4B471CEFAEAC2 /* Pods_KnowPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnowPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F3B259B40AC2E6A8AE0158 /* Pods-KnowPro-OneSignalNotificationServiceExtension.debug - development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowPro-OneSignalNotificationServiceExtension.debug - development.xcconfig"; path = "Target Support Files/Pods-KnowPro-OneSignalNotificationServiceExtension/Pods-KnowPro-OneSignalNotificationServiceExtension.debug - development.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04377EBC22930EFF004CEBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F32BBE763EC91A15275ACF /* Pods_KnowPro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04377ED022930F00004CEBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3C601A08D1BC00A8D5DAAB /* Pods_KnowProTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FBF046229DD65C0081F078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3A096A6F55CC7AE3326DC4 /* Pods_KnowPro_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0403BAEF22BBDE82003C5053 /* Drugs */ = {
+			isa = PBXGroup;
+			children = (
+				0403BAF022BBDE9E003C5053 /* KPDrugsTableViewController.swift */,
+				0403BAF222BBFE85003C5053 /* KPDrugViewController.swift */,
+				0439B86322BD6F3A008381AA /* KPDrugInfoTableViewController.swift */,
+				044D728022DE658D0017E602 /* KPDrugInfoTableViewController+Extensions.swift */,
+			);
+			path = Drugs;
+			sourceTree = "<group>";
+		};
+		04377EB622930EFE004CEBAC = {
+			isa = PBXGroup;
+			children = (
+				04377EC122930EFF004CEBAC /* KnowPro */,
+				04377ED622930F00004CEBAC /* KnowProTests */,
+				04FBF04A229DD65D0081F078 /* OneSignalNotificationServiceExtension */,
+				04377EC022930EFF004CEBAC /* Products */,
+				BDB391723D0C0780A1DCE3DA /* Frameworks */,
+				9E191AFC041843D2F64B457C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		04377EC022930EFF004CEBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04377EBF22930EFF004CEBAC /* KnowPro.app */,
+				04377ED322930F00004CEBAC /* KnowProTests.xctest */,
+				04FBF049229DD65C0081F078 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04377EC122930EFF004CEBAC /* KnowPro */ = {
+			isa = PBXGroup;
+			children = (
+				04FBF057229DD7E10081F078 /* KnowPro.entitlements */,
+				04377EEB22931DC0004CEBAC /* App Delegate */,
+				04377EEC22931DCD004CEBAC /* Assets */,
+				04377EED22931DD3004CEBAC /* Extensions */,
+				04377EEE22931DD9004CEBAC /* Models */,
+				04377EEF22931DE0004CEBAC /* Stores */,
+				04377EE822931296004CEBAC /* Supporting Files */,
+				04377EF022931DE6004CEBAC /* Storyboards */,
+				04377EF122931DED004CEBAC /* Styling */,
+				04377EF222931DF2004CEBAC /* Views */,
+				04377EF322931DF8004CEBAC /* View Controllers */,
+			);
+			path = KnowPro;
+			sourceTree = "<group>";
+		};
+		04377ED622930F00004CEBAC /* KnowProTests */ = {
+			isa = PBXGroup;
+			children = (
+				04377ED722930F00004CEBAC /* KnowProTests.swift */,
+				04377ED922930F00004CEBAC /* Info.plist */,
+			);
+			path = KnowProTests;
+			sourceTree = "<group>";
+		};
+		04377EE822931296004CEBAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046BEA1322F3A211003EAF5E /* GoogleService-Info.plist */,
+				04377EE9229312BC004CEBAC /* Settings.bundle */,
+				04377ECE22930F00004CEBAC /* Info.plist */,
+				04D2956B229C4E2D0005CBD8 /* KPConstants.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04377EEB22931DC0004CEBAC /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				04377EC222930EFF004CEBAC /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		04377EEC22931DCD004CEBAC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				04377EC922930F00004CEBAC /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		04377EED22931DD3004CEBAC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				046EBBCD22A8048900BB614E /* UIColor+Extensions.swift */,
+				0437718622A96B230017D092 /* UILabel+Extensions.swift */,
+				04B3A47C22C2563900296A04 /* UIScrollView+Extensions.swift */,
+				0455F91A22D3E983008FE18A /* UIApplication+Extensions.swift */,
+				04A4123E22D6536F002C2DCD /* StringProtocol+Extensions.swift */,
+				04A4124222D68E75002C2DCD /* String+Extensions.swift */,
+				0477CD1022DABBD800FB654E /* User+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04377EEE22931DD9004CEBAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04991EDC22948830002FDD5E /* KPSyncSpace.swift */,
+				04991EDE229488FE002FDD5E /* KPAsset.swift */,
+				04FBF02F229DAFB50081F078 /* KPAdvertisement.swift */,
+				04FBF031229DB10B0081F078 /* KPArticle.swift */,
+				04FBF033229DB3860081F078 /* KPCompany.swift */,
+				04FBF035229DB4C50081F078 /* KPContraindication.swift */,
+				04FBF037229DB53D0081F078 /* KPDosageInstruction.swift */,
+				04FBF039229DB58B0081F078 /* KPDrug.swift */,
+				04FBF03B229DB6C60081F078 /* KPGeneralInformation.swift */,
+				04FBF03D229DB7F30081F078 /* KPIndication.swift */,
+				04FBF03F229DB8470081F078 /* KPPharmacy.swift */,
+				04FBF041229DB8DC0081F078 /* KPPrecaution.swift */,
+				04FBF043229DBA2D0081F078 /* KPPricing.swift */,
+				041AFE1A22D4FD2C00045272 /* KPReferences.swift */,
+				0477CD1622DB7BA600FB654E /* KPValidationError.swift */,
+				044D727C22DE1C590017E602 /* KPImpression.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04377EEF22931DE0004CEBAC /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				04991ED822944B37002FDD5E /* KPRealmStore.swift */,
+				04991EDA2294856C002FDD5E /* KPContentfulStore.swift */,
+				044D727E22DE1EB70017E602 /* KPImpressionStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		04377EF022931DE6004CEBAC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04377ECB22930F00004CEBAC /* LaunchScreen.storyboard */,
+				04377EC622930EFF004CEBAC /* Main.storyboard */,
+				04762AC322A585B600575A65 /* Home.storyboard */,
+				04762AC522A585C500575A65 /* Favorites.storyboard */,
+				04762AC722A585D400575A65 /* Companies.storyboard */,
+				04762AC922A585DF00575A65 /* Drugs.storyboard */,
+				04762ACB22A585E900575A65 /* Reference.storyboard */,
+				04A4124422D79E46002C2DCD /* SignUpLogin.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		04377EF122931DED004CEBAC /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				04FE5E2422A58A02003A1F83 /* KPAppearanceProxies.swift */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
+		04377EF222931DF2004CEBAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04E57C9922A6D1D200DF3D4F /* KPSearchField.swift */,
+				04E57C9E22A6F57700DF3D4F /* KPArticleTableViewCell.swift */,
+				04E57CA022A6F81200DF3D4F /* KPPremiumArticleTableViewCell.swift */,
+				04E4B03B22A6F8DC00BE5595 /* KPBannerAdTableViewCell.swift */,
+				0403BAED22BBDAF9003C5053 /* KPDrugTableViewCell.swift */,
+				04CDD17B22BC2C1900F14B74 /* KPGalleryCollectionViewCell.swift */,
+				047E9B8922C171F1003D285B /* KPInfoTableViewCell.swift */,
+				047E9B8D22C172D4003D285B /* KPProducerTableViewCell.swift */,
+				04B3A47622C1B57C00296A04 /* KPCopayCardTableViewCell.swift */,
+				04B3A47822C1B8B800296A04 /* KPPharmacyTableViewCell.swift */,
+				04B3A47A22C1C3CD00296A04 /* KPContactTableViewCell.swift */,
+				04B3A48122C3DC4800296A04 /* KPCompanyCollectionViewCell.swift */,
+				04C573AA22C64DFE008FE98E /* KPGradientView.swift */,
+				0455F91222D3C619008FE18A /* KPHeaderCollectionReusableView.swift */,
+				0455F91422D3C6D5008FE18A /* KPFooterCollectionReusableView.swift */,
+				04A4124022D687D6002C2DCD /* KPContactGradientView.swift */,
+				0477CD1422DACDA100FB654E /* KPTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04377EF322931DF8004CEBAC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04A4124622D8F428002C2DCD /* NUX */,
+				04B3A47E22C3DAA400296A04 /* Companies */,
+				0403BAEF22BBDE82003C5053 /* Drugs */,
+				04E57C9B22A6D3EB00DF3D4F /* Home */,
+				04FE5E2622A58ACA003A1F83 /* KPTabBarController.swift */,
+				04F79A2F22AFE4C6007B5BD8 /* KPMenuViewController.swift */,
+				04E57C9C22A6D3FA00DF3D4F /* KPSearchViewController.swift */,
+				0412192722DFA3CD005BE675 /* KPSearchTableViewController.swift */,
+				0403BAF422BC013D003C5053 /* KPNavigationController.swift */,
+				0439B86122BD6B9C008381AA /* KPGalleryCollectionViewController.swift */,
+				0455F91622D3E372008FE18A /* KPFullScreenAdViewController.swift */,
+				041AFE1822D4FA6D00045272 /* KPReferenceViewController.swift */,
+				04A4123C22D6391D002C2DCD /* KPContactViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		04A4124622D8F428002C2DCD /* NUX */ = {
+			isa = PBXGroup;
+			children = (
+				04A4124722D8F570002C2DCD /* KPSignUpViewController.swift */,
+				04A4124922D8F586002C2DCD /* KPEmailPasswordViewController.swift */,
+				04A4124B22D8F59B002C2DCD /* KPCreateProfileViewController.swift */,
+				04A4124D22D8F5AC002C2DCD /* KPPracticeInfoViewController.swift */,
+				0477CD1222DAC88900FB654E /* KPOnboardingViewController.swift */,
+				047ED58122E0E036005A604F /* KPForgotPasswordViewController.swift */,
+			);
+			path = NUX;
+			sourceTree = "<group>";
+		};
+		04B3A47E22C3DAA400296A04 /* Companies */ = {
+			isa = PBXGroup;
+			children = (
+				04B3A47F22C3DAC600296A04 /* KPCompaniesCollectionViewController.swift */,
+				04B3A48322C408F700296A04 /* KPCompanyViewController.swift */,
+				046383F222C52A360089B493 /* KPCompanyInfoTableViewController.swift */,
+				044D728222DE67520017E602 /* KPCompanyInfoTableViewController+Extensions.swift */,
+			);
+			path = Companies;
+			sourceTree = "<group>";
+		};
+		04E57C9B22A6D3EB00DF3D4F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04E4B03D22A6FB3000BE5595 /* KPHomeTableViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		04FBF04A229DD65D0081F078 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				04FBF04B229DD65D0081F078 /* NotificationService.swift */,
+				04FBF04D229DD65D0081F078 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		9E191AFC041843D2F64B457C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16F786248DF87128C712A635 /* Pods-KnowPro.debug - development.xcconfig */,
+				6E8206F25BB4F140DE9F8468 /* Pods-KnowPro.debug - production.xcconfig */,
+				4DF97D605271E41BD8422FBC /* Pods-KnowPro.release - development.xcconfig */,
+				62CD2B035C4C02A367D51518 /* Pods-KnowPro.release - production.xcconfig */,
+				E7F3B259B40AC2E6A8AE0158 /* Pods-KnowPro-OneSignalNotificationServiceExtension.debug - development.xcconfig */,
+				117AD1EDCB4EBFF846B91A7D /* Pods-KnowPro-OneSignalNotificationServiceExtension.debug - production.xcconfig */,
+				C1DE524C3CCB73E5DBFCB97A /* Pods-KnowPro-OneSignalNotificationServiceExtension.release - development.xcconfig */,
+				C1F7C4F375C5CD38970C373F /* Pods-KnowPro-OneSignalNotificationServiceExtension.release - production.xcconfig */,
+				2F1E0B5374B160FD63B2002D /* Pods-KnowProTests.debug - development.xcconfig */,
+				37AE6D3FD326709E261EB05F /* Pods-KnowProTests.debug - production.xcconfig */,
+				85A3FB3B475813F1A5467296 /* Pods-KnowProTests.release - development.xcconfig */,
+				3B682AF5F61D8B43B0CDE9E6 /* Pods-KnowProTests.release - production.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BDB391723D0C0780A1DCE3DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04377EF4229332CB004CEBAC /* AssetsLibrary.framework */,
+				E2D19D4ED9B4B471CEFAEAC2 /* Pods_KnowPro.framework */,
+				5180D3282679679A6F88DF8C /* Pods_KnowPro_OneSignalNotificationServiceExtension.framework */,
+				D9531D59FE2959BA74176A00 /* Pods_KnowProTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04377EBE22930EFF004CEBAC /* KnowPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04377EDC22930F00004CEBAC /* Build configuration list for PBXNativeTarget "KnowPro" */;
+			buildPhases = (
+				59BAD72DC96A8B450D01FA2F /* [CP] Check Pods Manifest.lock */,
+				04377EBB22930EFF004CEBAC /* Sources */,
+				04377EBC22930EFF004CEBAC /* Frameworks */,
+				04377EBD22930EFF004CEBAC /* Resources */,
+				04377EF622933953004CEBAC /* SwiftLint Run Script */,
+				04D2956A229C40610005CBD8 /* Crashlytics Run Script */,
+				04FBF056229DD65D0081F078 /* Embed App Extensions */,
+				245E865F104845DF7F943187 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FBF04F229DD65D0081F078 /* PBXTargetDependency */,
+			);
+			name = KnowPro;
+			productName = KnowPro;
+			productReference = 04377EBF22930EFF004CEBAC /* KnowPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04377ED222930F00004CEBAC /* KnowProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04377EDF22930F00004CEBAC /* Build configuration list for PBXNativeTarget "KnowProTests" */;
+			buildPhases = (
+				D31DB6D81952A487E3DA012D /* [CP] Check Pods Manifest.lock */,
+				04377ECF22930F00004CEBAC /* Sources */,
+				04377ED022930F00004CEBAC /* Frameworks */,
+				04377ED122930F00004CEBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04377ED522930F00004CEBAC /* PBXTargetDependency */,
+			);
+			name = KnowProTests;
+			productName = KnowProTests;
+			productReference = 04377ED322930F00004CEBAC /* KnowProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04FBF048229DD65C0081F078 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FBF055229DD65D0081F078 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				3C4AF04681155436ECB233DE /* [CP] Check Pods Manifest.lock */,
+				04FBF045229DD65C0081F078 /* Sources */,
+				04FBF046229DD65C0081F078 /* Frameworks */,
+				04FBF047229DD65C0081F078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 04FBF049229DD65C0081F078 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04377EB722930EFE004CEBAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KP;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = KnowPro;
+				TargetAttributes = {
+					04377EBE22930EFF004CEBAC = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					04377ED222930F00004CEBAC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 04377EBE22930EFF004CEBAC;
+					};
+					04FBF048229DD65C0081F078 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 04377EBA22930EFE004CEBAC /* Build configuration list for PBXProject "KnowPro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04377EB622930EFE004CEBAC;
+			productRefGroup = 04377EC022930EFF004CEBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04377EBE22930EFF004CEBAC /* KnowPro */,
+				04377ED222930F00004CEBAC /* KnowProTests */,
+				04FBF048229DD65C0081F078 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04377EBD22930EFF004CEBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04377EEA229312BC004CEBAC /* Settings.bundle in Resources */,
+				04762ACA22A585DF00575A65 /* Drugs.storyboard in Resources */,
+				04762ACC22A585E900575A65 /* Reference.storyboard in Resources */,
+				04377ECD22930F00004CEBAC /* LaunchScreen.storyboard in Resources */,
+				04762AC822A585D400575A65 /* Companies.storyboard in Resources */,
+				04762AC422A585B600575A65 /* Home.storyboard in Resources */,
+				04762AC622A585C500575A65 /* Favorites.storyboard in Resources */,
+				04A4124522D79E46002C2DCD /* SignUpLogin.storyboard in Resources */,
+				046BEA1422F3A211003EAF5E /* GoogleService-Info.plist in Resources */,
+				04377ECA22930F00004CEBAC /* Assets.xcassets in Resources */,
+				04377EC822930EFF004CEBAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04377ED122930F00004CEBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FBF047229DD65C0081F078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04377EF622933953004CEBAC /* SwiftLint Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftLint Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		04D2956A229C40610005CBD8 /* Crashlytics Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "Crashlytics Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+		245E865F104845DF7F943187 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KnowPro/Pods-KnowPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KnowPro/Pods-KnowPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KnowPro/Pods-KnowPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C4AF04681155436ECB233DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KnowPro-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59BAD72DC96A8B450D01FA2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KnowPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D31DB6D81952A487E3DA012D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KnowProTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04377EBB22930EFF004CEBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FBF034229DB3860081F078 /* KPCompany.swift in Sources */,
+				04B3A48422C408F700296A04 /* KPCompanyViewController.swift in Sources */,
+				04991EDD22948830002FDD5E /* KPSyncSpace.swift in Sources */,
+				0455F91522D3C6D5008FE18A /* KPFooterCollectionReusableView.swift in Sources */,
+				047E9B8A22C171F1003D285B /* KPInfoTableViewCell.swift in Sources */,
+				04B3A48022C3DAC600296A04 /* KPCompaniesCollectionViewController.swift in Sources */,
+				04A4124E22D8F5AC002C2DCD /* KPPracticeInfoViewController.swift in Sources */,
+				04991EDB2294856C002FDD5E /* KPContentfulStore.swift in Sources */,
+				0477CD1522DACDA100FB654E /* KPTextField.swift in Sources */,
+				04FBF038229DB53D0081F078 /* KPDosageInstruction.swift in Sources */,
+				0477CD1122DABBD800FB654E /* User+Extensions.swift in Sources */,
+				04991ED922944B37002FDD5E /* KPRealmStore.swift in Sources */,
+				04FBF03A229DB58B0081F078 /* KPDrug.swift in Sources */,
+				0455F91B22D3E983008FE18A /* UIApplication+Extensions.swift in Sources */,
+				04C573AB22C64DFE008FE98E /* KPGradientView.swift in Sources */,
+				04A4124C22D8F59B002C2DCD /* KPCreateProfileViewController.swift in Sources */,
+				044D728322DE67520017E602 /* KPCompanyInfoTableViewController+Extensions.swift in Sources */,
+				0403BAF522BC013D003C5053 /* KPNavigationController.swift in Sources */,
+				04D2956C229C4E2D0005CBD8 /* KPConstants.swift in Sources */,
+				041AFE1B22D4FD2C00045272 /* KPReferences.swift in Sources */,
+				04A4124122D687D6002C2DCD /* KPContactGradientView.swift in Sources */,
+				0403BAEE22BBDAF9003C5053 /* KPDrugTableViewCell.swift in Sources */,
+				04FBF042229DB8DC0081F078 /* KPPrecaution.swift in Sources */,
+				04B3A47D22C2563900296A04 /* UIScrollView+Extensions.swift in Sources */,
+				04A4124A22D8F586002C2DCD /* KPEmailPasswordViewController.swift in Sources */,
+				04B3A47922C1B8B800296A04 /* KPPharmacyTableViewCell.swift in Sources */,
+				044D727F22DE1EB70017E602 /* KPImpressionStore.swift in Sources */,
+				04E57C9F22A6F57700DF3D4F /* KPArticleTableViewCell.swift in Sources */,
+				04A4124822D8F570002C2DCD /* KPSignUpViewController.swift in Sources */,
+				0403BAF122BBDE9E003C5053 /* KPDrugsTableViewController.swift in Sources */,
+				0439B86422BD6F3A008381AA /* KPDrugInfoTableViewController.swift in Sources */,
+				041AFE1922D4FA6D00045272 /* KPReferenceViewController.swift in Sources */,
+				0455F91322D3C619008FE18A /* KPHeaderCollectionReusableView.swift in Sources */,
+				04FBF040229DB8470081F078 /* KPPharmacy.swift in Sources */,
+				04E4B03C22A6F8DC00BE5595 /* KPBannerAdTableViewCell.swift in Sources */,
+				0412192822DFA3CD005BE675 /* KPSearchTableViewController.swift in Sources */,
+				04A4123F22D6536F002C2DCD /* StringProtocol+Extensions.swift in Sources */,
+				0477CD1722DB7BA600FB654E /* KPValidationError.swift in Sources */,
+				04B3A47B22C1C3CD00296A04 /* KPContactTableViewCell.swift in Sources */,
+				04B3A48222C3DC4800296A04 /* KPCompanyCollectionViewCell.swift in Sources */,
+				04FBF032229DB10B0081F078 /* KPArticle.swift in Sources */,
+				044D728122DE658D0017E602 /* KPDrugInfoTableViewController+Extensions.swift in Sources */,
+				04B3A47722C1B57C00296A04 /* KPCopayCardTableViewCell.swift in Sources */,
+				04E57C9A22A6D1D200DF3D4F /* KPSearchField.swift in Sources */,
+				04FE5E2722A58ACA003A1F83 /* KPTabBarController.swift in Sources */,
+				047ED58222E0E036005A604F /* KPForgotPasswordViewController.swift in Sources */,
+				04FBF036229DB4C50081F078 /* KPContraindication.swift in Sources */,
+				0455F91722D3E372008FE18A /* KPFullScreenAdViewController.swift in Sources */,
+				04A4124322D68E75002C2DCD /* String+Extensions.swift in Sources */,
+				0439B86222BD6B9C008381AA /* KPGalleryCollectionViewController.swift in Sources */,
+				04FBF03E229DB7F30081F078 /* KPIndication.swift in Sources */,
+				04F79A3022AFE4C6007B5BD8 /* KPMenuViewController.swift in Sources */,
+				047E9B8E22C172D4003D285B /* KPProducerTableViewCell.swift in Sources */,
+				04FE5E2522A58A02003A1F83 /* KPAppearanceProxies.swift in Sources */,
+				04FBF03C229DB6C60081F078 /* KPGeneralInformation.swift in Sources */,
+				0477CD1322DAC88900FB654E /* KPOnboardingViewController.swift in Sources */,
+				0403BAF322BBFE85003C5053 /* KPDrugViewController.swift in Sources */,
+				04CDD17C22BC2C1900F14B74 /* KPGalleryCollectionViewCell.swift in Sources */,
+				04377EC322930EFF004CEBAC /* AppDelegate.swift in Sources */,
+				046383F322C52A360089B493 /* KPCompanyInfoTableViewController.swift in Sources */,
+				04E57C9D22A6D3FA00DF3D4F /* KPSearchViewController.swift in Sources */,
+				04A4123D22D6391D002C2DCD /* KPContactViewController.swift in Sources */,
+				0437718722A96B230017D092 /* UILabel+Extensions.swift in Sources */,
+				046EBBCE22A8048900BB614E /* UIColor+Extensions.swift in Sources */,
+				04991EDF229488FE002FDD5E /* KPAsset.swift in Sources */,
+				04FBF030229DAFB50081F078 /* KPAdvertisement.swift in Sources */,
+				04E57CA122A6F81200DF3D4F /* KPPremiumArticleTableViewCell.swift in Sources */,
+				04E4B03E22A6FB3000BE5595 /* KPHomeTableViewController.swift in Sources */,
+				044D727D22DE1C590017E602 /* KPImpression.swift in Sources */,
+				04FBF044229DBA2D0081F078 /* KPPricing.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04377ECF22930F00004CEBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04377ED822930F00004CEBAC /* KnowProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FBF045229DD65C0081F078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FBF04C229DD65D0081F078 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04377ED522930F00004CEBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04377EBE22930EFF004CEBAC /* KnowPro */;
+			targetProxy = 04377ED422930F00004CEBAC /* PBXContainerItemProxy */;
+		};
+		04FBF04F229DD65D0081F078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FBF048229DD65C0081F078 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 04FBF04E229DD65D0081F078 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04377EC622930EFF004CEBAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04377EC722930EFF004CEBAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04377ECB22930F00004CEBAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04377ECC22930F00004CEBAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04377EDA22930F00004CEBAC /* Debug - Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "\"-D\" \"DEVELOPMENT\"";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug - Development";
+		};
+		04377EDB22930F00004CEBAC /* Release - Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "\"-D\" \"DEVELOPMENT\"";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release - Development";
+		};
+		04377EDD22930F00004CEBAC /* Debug - Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F786248DF87128C712A635 /* Pods-KnowPro.debug - development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KnowPro/KnowPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY9PZ329NZ;
+				INFOPLIST_FILE = "$(SRCROOT)/KnowPro/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KnowPro.KnowPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Debug - Development";
+		};
+		04377EDE22930F00004CEBAC /* Release - Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF97D605271E41BD8422FBC /* Pods-KnowPro.release - development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KnowPro/KnowPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY9PZ329NZ;
+				INFOPLIST_FILE = "$(SRCROOT)/KnowPro/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KnowPro.KnowPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release - Development";
+		};
+		04377EE022930F00004CEBAC /* Debug - Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1E0B5374B160FD63B2002D /* Pods-KnowProTests.debug - development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ364E6Z93;
+				INFOPLIST_FILE = KnowProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.camber.KnowProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnowPro.app/KnowPro";
+			};
+			name = "Debug - Development";
+		};
+		04377EE122930F00004CEBAC /* Release - Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A3FB3B475813F1A5467296 /* Pods-KnowProTests.release - development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ364E6Z93;
+				INFOPLIST_FILE = KnowProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.camber.KnowProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnowPro.app/KnowPro";
+			};
+			name = "Release - Development";
+		};
+		04377EE222931029004CEBAC /* Debug - Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "\"-D\" \"PRODUCTION\"";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug - Production";
+		};
+		04377EE322931029004CEBAC /* Debug - Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E8206F25BB4F140DE9F8468 /* Pods-KnowPro.debug - production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KnowPro/KnowPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY9PZ329NZ;
+				INFOPLIST_FILE = "$(SRCROOT)/KnowPro/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KnowPro.KnowPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Debug - Production";
+		};
+		04377EE422931029004CEBAC /* Debug - Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37AE6D3FD326709E261EB05F /* Pods-KnowProTests.debug - production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ364E6Z93;
+				INFOPLIST_FILE = KnowProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.camber.KnowProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnowPro.app/KnowPro";
+			};
+			name = "Debug - Production";
+		};
+		04377EE52293105B004CEBAC /* Release - Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "\"-D\" \"PRODUCTION\"";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release - Production";
+		};
+		04377EE62293105B004CEBAC /* Release - Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62CD2B035C4C02A367D51518 /* Pods-KnowPro.release - production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KnowPro/KnowPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY9PZ329NZ;
+				INFOPLIST_FILE = "$(SRCROOT)/KnowPro/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KnowPro.KnowPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release - Production";
+		};
+		04377EE72293105B004CEBAC /* Release - Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B682AF5F61D8B43B0CDE9E6 /* Pods-KnowProTests.release - production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ364E6Z93;
+				INFOPLIST_FILE = KnowProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.camber.KnowProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnowPro.app/KnowPro";
+			};
+			name = "Release - Production";
+		};
+		04FBF051229DD65D0081F078 /* Debug - Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F3B259B40AC2E6A8AE0158 /* Pods-KnowPro-OneSignalNotificationServiceExtension.debug - development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UY9PZ329NZ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KnowPro.KnowPro.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug - Development";
+		};
+		04FBF052229DD65D0081F078 /* Debug - Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 117AD1EDCB4EBFF846B91A7D /* Pods-KnowPro-OneSignalNotificationServiceExtension.debug - production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UY9PZ329NZ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KnowPro.KnowPro.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug - Production";
+		};
+		04FBF053229DD65D0081F078 /* Release - Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DE524C3CCB73E5DBFCB97A /* Pods-KnowPro-OneSignalNotificationServiceExtension.release - development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UY9PZ329NZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KnowPro.KnowPro.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release - Development";
+		};
+		04FBF054229DD65D0081F078 /* Release - Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F7C4F375C5CD38970C373F /* Pods-KnowPro-OneSignalNotificationServiceExtension.release - production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UY9PZ329NZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KnowPro.KnowPro.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release - Production";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04377EBA22930EFE004CEBAC /* Build configuration list for PBXProject "KnowPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04377EDA22930F00004CEBAC /* Debug - Development */,
+				04377EE222931029004CEBAC /* Debug - Production */,
+				04377EDB22930F00004CEBAC /* Release - Development */,
+				04377EE52293105B004CEBAC /* Release - Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release - Production";
+		};
+		04377EDC22930F00004CEBAC /* Build configuration list for PBXNativeTarget "KnowPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04377EDD22930F00004CEBAC /* Debug - Development */,
+				04377EE322931029004CEBAC /* Debug - Production */,
+				04377EDE22930F00004CEBAC /* Release - Development */,
+				04377EE62293105B004CEBAC /* Release - Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release - Production";
+		};
+		04377EDF22930F00004CEBAC /* Build configuration list for PBXNativeTarget "KnowProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04377EE022930F00004CEBAC /* Debug - Development */,
+				04377EE422931029004CEBAC /* Debug - Production */,
+				04377EE122930F00004CEBAC /* Release - Development */,
+				04377EE72293105B004CEBAC /* Release - Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release - Production";
+		};
+		04FBF055229DD65D0081F078 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FBF051229DD65D0081F078 /* Debug - Development */,
+				04FBF052229DD65D0081F078 /* Debug - Production */,
+				04FBF053229DD65D0081F078 /* Release - Development */,
+				04FBF054229DD65D0081F078 /* Release - Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release - Production";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04377EB722930EFE004CEBAC /* Project object */;
+}
